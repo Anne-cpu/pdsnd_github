@@ -8,13 +8,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 """
-Having an introduction and asking for the user's name
+Introduction and User Name
 """
 name = input('How is your name? ')
 print('Hello',name.title(),', welcome to the Bikeshare Analysis. I can give many insights into our bikeshare usage. Would you like to see data for Chicago, New York or Washington?')
 
 """
-Asking for the city input
+Asking for the city
 """
 city_input = input('Please type in Chicago, New York City or Washington: ')
 while city_input.lower() not in ('washington', 'new york city', 'chicago'):
@@ -22,7 +22,7 @@ while city_input.lower() not in ('washington', 'new york city', 'chicago'):
     city_input = input()
 
 """
-Asking for the month selection
+Asking for the month
 """
 month_input = input('For which month shall I do the analysis? Please type in \'January, February, March, April, May, June\'or \'all\' if you prefer the analysis without filters: ')
 while month_input.lower() not in ('january, february, march, april, may, june, all'):
@@ -152,4 +152,4 @@ def main():
             break
 
 if __name__ == "__main__":
-	main()       
+	main()
