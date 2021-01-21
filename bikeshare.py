@@ -14,7 +14,7 @@ name = input('How is your name? ')
 print('Hello',name.title(),', welcome to the Bikeshare Analysis. I can give many insights into our bikeshare usage. Would you like to see data for Chicago, New York or Washington?')
 
 """
-Asking for the city input
+Asking for the city
 """
 city_input = input('Please type in Chicago, New York City or Washington: ')
 while city_input.lower() not in ('washington', 'new york city', 'chicago'):
