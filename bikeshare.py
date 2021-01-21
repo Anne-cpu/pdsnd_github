@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 """
-Having an introduction and asking for the user's name
+Introduction and User Name
 """
 name = input('How is your name? ')
 print('Hello',name.title(),', welcome to the Bikeshare Analysis. I can give many insights into our bikeshare usage. Would you like to see data for Chicago, New York or Washington?')
@@ -152,4 +152,4 @@ def main():
             break
 
 if __name__ == "__main__":
-	main()       
+	main()
