@@ -22,7 +22,7 @@ while city_input.lower() not in ('washington', 'new york city', 'chicago'):
     city_input = input()
 
 """
-Asking for the month selection
+Asking for the month
 """
 month_input = input('For which month shall I do the analysis? Please type in \'January, February, March, April, May, June\'or \'all\' if you prefer the analysis without filters: ')
 while month_input.lower() not in ('january, february, march, april, may, june, all'):
